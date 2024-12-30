@@ -16,29 +16,19 @@ namespace Askhsh1
 
         }
 
-        private void Function_box_SelectedIndexChanged(object sender, EventArgs e)
+        private void birthplace_label_Click(object sender, EventArgs e)
         {
-            switch (Function_box.SelectedIndex.ToString())
-            {
-                case "Εισαγωγή νέου αιτήματος":
-                    Name_box.Visible = true;
 
-                    break;
-                case "Προβολή όλων των αιτημάτων":
-                    Name_box.Visible = false;
+        }
 
-                    break;
-                case "Διαγραφή εγγραφής":
-                    Name_box.Visible = true;
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
-                    break;
-                case "Τροποποίηση εγγραφής":
-                    Name_box.Visible = false;
-                    break;
-                default:
+        }
 
-                    break;
-            }
+        private void startingScreen1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
