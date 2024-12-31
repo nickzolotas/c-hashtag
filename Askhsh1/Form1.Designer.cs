@@ -167,7 +167,7 @@
             // 
             // startingScreen1
             // 
-            startingScreen1.Location = new Point(12, 12);
+            startingScreen1.Location = new Point(15, 22);
             startingScreen1.Name = "startingScreen1";
             startingScreen1.Size = new Size(635, 504);
             startingScreen1.TabIndex = 15;

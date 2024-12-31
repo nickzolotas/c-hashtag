@@ -14,10 +14,10 @@ namespace Askhsh1
     {
         public static void StartDB()
         {
-            if (!File.Exists(@"Files\Requests.db"))
+            if (!File.Exists(@"..\..\Files\Requests.db"))
             {
-                SQLiteConnection.CreateFile(@"Files\Requests.db");
-                using (var connection = new SQLiteConnection($"Data Source ={@"Files\Requests.db"};Version=3;"))
+                SQLiteConnection.CreateFile(@"..\..\Files\Requests.db");
+                using (var connection = new SQLiteConnection($"Data Source ={@"..\..\Files\Requests.db"};Version=3;"))
                 {
                     connection.Open();
                     string createTableQuery = @"
