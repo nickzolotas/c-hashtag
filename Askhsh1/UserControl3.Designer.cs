@@ -30,11 +30,15 @@
         {
             panel1 = new Panel();
             allEntries_label = new Label();
+            dataGridView1 = new DataGridView();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(64, 64, 64);
+            panel1.Controls.Add(dataGridView1);
             panel1.Location = new Point(0, 157);
             panel1.Name = "panel1";
             panel1.Size = new Size(782, 395);
@@ -51,6 +55,16 @@
             allEntries_label.TabIndex = 35;
             allEntries_label.Text = "Όλα τα αιτήματα";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.BackgroundColor = Color.FromArgb(64, 64, 64);
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(-1, 3);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(782, 395);
+            dataGridView1.TabIndex = 0;
+            // 
             // AllReq
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -61,6 +75,8 @@
             Name = "AllReq";
             Size = new Size(781, 552);
             Load += AllEntries_Load;
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -69,5 +85,6 @@
 
         private Panel panel1;
         private Label allEntries_label;
+        private DataGridView dataGridView1;
     }
 }
