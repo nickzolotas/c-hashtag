@@ -29,22 +29,66 @@ namespace Askhsh1
 
         private void allRequests_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            foreach (Control c in this.Controls)
+            {
+                if (c is UserControl)
+                {
+                    c.Hide();
+                }
+                if (c is AllReq)
+                {
+                    c.Show();
+                }
+            }
         }
 
         private void requestsByPerson_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            foreach (Control c in this.Controls)
+            {
+                if (c is UserControl)
+                {
+                    c.Hide();
+                }
+                if (c is ReqByPerson)
+                {
+                    c.Show();
+                }
+            }
         }
 
         private void deleteEntry_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            foreach (Control c in this.Controls)
+            {
+                if (c is UserControl)
+                {
+                    c.Hide();
+                }
+                if (c is DeleteEntry)
+                {
+                    c.Show();
+                }
+            }
         }
 
         private void editEntry_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            foreach (Control c in this.Controls)
+            {
+                if (c is UserControl)
+                {
+                    c.Hide();
+                }
+                if (c is EditEntry)
+                {
+                    c.Show();
+                }
+            }
         }
     }
 }

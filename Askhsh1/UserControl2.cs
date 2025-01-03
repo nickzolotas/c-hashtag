@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Askhsh1
 {
-    public partial class AllEntries : UserControl
+    public partial class ReqByPerson : UserControl
     {
-        public AllEntries()
+        public ReqByPerson()
         {
             InitializeComponent();
         }
@@ -38,7 +38,6 @@ namespace Askhsh1
             phone_label.Hide();
             Phone_box.Hide();
             dataGridView1.Show();
-            
         }
 
         private void Cancel_button2_Click(object sender, EventArgs e)

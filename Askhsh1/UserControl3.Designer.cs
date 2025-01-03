@@ -1,6 +1,6 @@
 ﻿namespace Askhsh1
 {
-    partial class EntriesByPerson
+    partial class AllReq
     {
         /// <summary> 
         /// Required designer variable.
@@ -51,15 +51,16 @@
             allEntries_label.TabIndex = 35;
             allEntries_label.Text = "Όλα τα αιτήματα";
             // 
-            // EntriesByPerson
+            // AllReq
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HotTrack;
             Controls.Add(allEntries_label);
             Controls.Add(panel1);
-            Name = "EntriesByPerson";
+            Name = "AllReq";
             Size = new Size(781, 552);
+            Load += AllEntries_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -31,6 +31,11 @@ namespace Askhsh1
 
         }
 
+        public void allReq()
+        {
+
+        }
+
         private void Cancel_button_Click(object sender, EventArgs e)
         {
             foreach (Control control in this.Controls)

@@ -1,6 +1,6 @@
 ﻿namespace Askhsh1
 {
-    partial class AllEntries
+    partial class ReqByPerson
     {
         /// <summary> 
         /// Required designer variable.
@@ -124,14 +124,14 @@
             editEntry_label.TabIndex = 35;
             editEntry_label.Text = "Όλα τα αιτήματα (ανά πολίτη)";
             // 
-            // AllEntries
+            // ReqByPerson
             // 
             AutoScaleDimensions = new SizeF(120F, 120F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.HotTrack;
             Controls.Add(editEntry_label);
             Controls.Add(panel1);
-            Name = "AllEntries";
+            Name = "ReqByPerson";
             Size = new Size(781, 552);
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

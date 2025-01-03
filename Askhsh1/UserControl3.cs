@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Askhsh1
 {
-    public partial class EntriesByPerson : UserControl
+    public partial class AllReq : UserControl
     {
-        public EntriesByPerson()
+        public AllReq()
         {
             InitializeComponent();
         }
+
+        private void AllEntries_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
